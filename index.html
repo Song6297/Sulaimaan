@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+     
+    </style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <img src="./logo.webp" alt="SULAIMAAN Arabic Calligraphy Logo">
+    </div>
+
+     <!-- Watermark -->
+     <div class="watermark">
+        <img src="./logo.webp" alt="SULAIMAAN Arabic Calligraphy Logo">
+    </div>
+
+    <!-- Header Section -->
+    <header class="header-logo">
+        <img src="./logo.webp" alt="SULAIMAAN Passport Photo" id="headerLogo">
+        <h1>Sulaimaan</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <img src="./logo.webp" alt="Enlarged Logo">
+    </div>
+    
+    <!-- Hamburger Menu -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#main">Home</a>
+        <div class="dropdown">
+            <a href="#portfolio" class="dropdown-toggle">Projects</a>
+            <div class="dropdown-menu">
+                <a href="#p">Project 1</a>
+                <a href="#portfolio">Project 2</a>
+                <a href="#portfolio">Project 3</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </div>
+    
+    <!-- Desktop Navigation -->
+    <nav>
+        <a href="#main">Home</a>
+        <div class="dropdown">
+            <a href="#portfolio" class="dropdown-toggle">Projects</a>
+            <div class="dropdown-menu">
+                <a href="#p">Project 1</a>
+                <a href="#portfolio">Project 2</a>
+                <a href="#portfolio">Project 3</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main" id="main">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I’m a web developer passionate about crafting creative solutions and building impactful websites. Take a look at my work, and feel free to get in touch!</p>
+    </div>
+
+
+    <!-- Resume Section -->
+    <div class="resume" id="resume">
+        <h2 class="resume-heading">Resume</h2>
+        <div class="resume-content">
+            <div class="resume-item">
+                <h3>Education</h3>
+                <p>Bachelor of Computer Applications - [Your University]</p>
+                <p>Graduation Year: [Year]</p>
+            </div>
+            <div class="resume-item">
+                <h3>Experience</h3>
+                <p>Intern at [Company Name]</p>
+                <p>Worked on web development projects involving [Technologies]</p>
+            </div>
+            <div class="resume-item">
+                <h3>Skills</h3>
+                <p>HTML, CSS, JavaScript, React, Node.js, etc.</p>
+            </div>
+            <div class="resume-item">
+                <h3>Certifications</h3>
+                <p>Google UX Design Certificate</p>
+                <p>Responsive Web Design Certification</p>
+            </div>
+        </div>
+    </div>
+<br>
+    <!-- Projects Section -->
+    <header class="Pro" id="portfolio">
+        <h1>Projects</h1>
+    </header>
+    <div class="portfolio">
+        <div class="portfolio-item" id="p">
+            <a href="https://song6297.github.io/Popular-Services-Pvt-Ltd./"><img src="./popularimg.png" alt="Project 1"></a>
+            <h3>Driving School</h3>
+            <p>Brief description of the project and your role in it. Highlight technologies or frameworks used.</p>
+        </div>
+        <div class="portfolio-item">
+           <a href="https://song6297.github.io/AL-MAJEED-store/"> <img src="./Groceryimg.png" alt="Project 2"></a>
+            <h3>Grocery Store</h3>
+            <p>Brief description of the project and your role in it. Highlight technologies or frameworks used.</p>
+        </div>
+        <div class="portfolio-item">
+           <a href="https://song6297.github.io/INFINITE/"> <img src="./infiniteimg.png" alt="Project 3"> </a>
+            <h3>Infinite Solutions</h3>
+            <p>Brief description of the project and your role in it. Highlight technologies or frameworks used.</p>
+        </div>
+    </div>
+<br>
+    <div class="about" id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer with experience in creating modern, responsive websites and applications. I specialize in front-end technologies like HTML, CSS, JavaScript, and React, but I also enjoy working with back-end solutions.</p>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contact-dome">
+            <h2>Contact Me</h2>
+        </div>
+        <form action="https://formsubmit.co/sulaimaansong6297@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+        
+
+    <footer>
+        <p>&copy; Sulaimaan's portfolio. All rights reserved from SULAIMAAN ABDUL MAJEED KHAN.</p>
+    </footer>
+
+    <script src="./script.js">
+       
+    </script>
+</body>
+</html>
